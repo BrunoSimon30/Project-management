@@ -44,7 +44,7 @@ const userSchema = new mongoose.Schema(
     role: {
       type: String,
       enum: [
-        "superadmin",
+        "super_admin",
         "admin",
         "department_head",
         "project_manager",
@@ -69,6 +69,10 @@ const userSchema = new mongoose.Schema(
       default: true,
     },
     is_deleted: {
+      type: Boolean,
+      default: false,
+    },
+    isBlocked: {
       type: Boolean,
       default: false,
     },

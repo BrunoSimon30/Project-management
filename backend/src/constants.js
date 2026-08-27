@@ -22,7 +22,6 @@ export default {
   UNAUTHORIZED_REQUEST: 401,
   UNPROCESSABLE_ENTITY_REQUEST: 422,
   FORBIDDEN_REQUEST: 403,
- 
 
   // Messages
   NO_RECORD_FOUND: "No record found for given details",
@@ -41,13 +40,41 @@ export default {
   OTP_EXPIRED: "OTP expired",
   OTP_ALREADY_USED: "OTP already used",
   OTP_VERIFIED_SUCCESSFULLY: "OTP verified successfully",
-  UNAUTHORIZED : "Unauthorized",
+  UNAUTHORIZED: "Unauthorized",
   AUTHORIZED: "Authorized",
   LOGIN_SUCCESSFULLY: "Login successfully",
+  OTP_RESENT_SUCCESSFULLY: "OTP sent successfully on your email",
+  RESEND_OTP_COOLDOWN: "Please wait 60 seconds before requesting a new OTP.",
+  REASON_REQUIRED: "Reason is required",
+  INVALID_TOKEN: "Invalid or expired token",
+  USER_BLOCKED: "User is blocked",
+  PROFILE_UPDATED_SUCCESSFULLY: "Profile updated successfully",
+
+  // Department Messages
+  DEPARTMENT_CREATED_SUCCESSFULLY: "Department created successfully",
+  DEPARTMENT_DELETED_SUCCESSFULLY: "Department deleted successfully",
+  DEPARTMENT_UPDATED_SUCCESSFULLY: "Department updated successfully",
+
+  // User Messages
+  USERS_FETCHED_SUCCESSFULLY: "Users fetched successfully",
+  USER_DELETED_SUCCESSFULLY: "User deleted successfully",
+  USER_UPDATED_SUCCESSFULLY: "User updated successfully",
+
+  // Project Messages
+  PROJECT_CREATED_SUCCESSFULLY: "Project created successfully",
+  PROJECT_FETCHED_SUCCESSFULLY: "Project fetched successfully",
+  PROJECT_NOT_FOUND: "Project not found",
+  PROJECT_DELETED_SUCCESSFULLY: "Project deleted successfully",
+  PROJECT_UPDATED_SUCCESSFULLY: "Project updated successfully",
 
 
 
-
+  // Task Messages
+  TASK_CREATED_SUCCESSFULLY: "Task created successfully",
+  TASK_FETCHED_SUCCESSFULLY: "Task fetched successfully",
+  TASK_NOT_FOUND: "Task not found",
+  TASK_DELETED_SUCCESSFULLY: "Task deleted successfully",
+  TASK_UPDATED_SUCCESSFULLY: "Task updated successfully",
 
   // SMTP
   SMTP_HOST: process.env.SMTP_HOST,
