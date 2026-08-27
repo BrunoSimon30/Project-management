@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <clipPath id="c1"><rect x="0" y="0" width="200" height="200"/></clipPath>
+    <clipPath id="c2"><rect x="200" y="0" width="200" height="200"/></clipPath>
+    <clipPath id="c3"><rect x="400" y="0" width="200" height="200"/></clipPath>
+    <clipPath id="c4"><rect x="0" y="200" width="200" height="200"/></clipPath>
+    <clipPath id="c5"><rect x="200" y="200" width="200" height="200"/></clipPath>
+    <clipPath id="c6"><rect x="400" y="200" width="200" height="200"/></clipPath>
+    <clipPath id="c7"><rect x="0" y="400" width="200" height="200"/></clipPath>
+    <clipPath id="c8"><rect x="200" y="400" width="200" height="200"/></clipPath>
+    <clipPath id="c9"><rect x="400" y="400" width="200" height="200"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="#0F172A"/>
+
+  <!-- Row 1 -->
+  <!-- Cell 1: Teal quarter circle -->
+  <rect x="0" y="0" width="200" height="200" fill="#06B6D4"/>
+  <circle cx="200" cy="200" r="200" fill="#0F172A" clip-path="url(#c1)"/>
+
+  <!-- Cell 2: Navy with white half circle bottom -->
+  <rect x="200" y="0" width="200" height="200" fill="#0F172A"/>
+  <circle cx="300" cy="200" r="100" fill="white" clip-path="url(#c2)"/>
+
+  <!-- Cell 3: White bg, orange circle top-right -->
+  <rect x="400" y="0" width="200" height="200" fill="white"/>
+  <circle cx="600" cy="0" r="120" fill="#F97316" clip-path="url(#c3)"/>
+  <circle cx="400" cy="200" r="100" fill="#0F172A" clip-path="url(#c3)"/>
+
+  <!-- Row 2 -->
+  <!-- Cell 4: Orange bg, purple circle -->
+  <rect x="0" y="200" width="200" height="200" fill="#F59E0B"/>
+  <circle cx="80" cy="300" r="70" fill="#8B5CF6" clip-path="url(#c4)"/>
+
+  <!-- Cell 5: White bg, purple half right + teal arch -->
+  <rect x="200" y="200" width="100" height="200" fill="white"/>
+  <rect x="300" y="200" width="100" height="200" fill="#0F172A"/>
+  <circle cx="300" cy="300" r="80" fill="#8B5CF6" clip-path="url(#c5)"/>
+  <circle cx="300" cy="300" r="45" fill="white" clip-path="url(#c5)"/>
+
+  <!-- Cell 6: Teal bg with navy arch -->
+  <rect x="400" y="200" width="200" height="200" fill="#06B6D4"/>
+  <circle cx="500" cy="200" r="100" fill="#0F172A" clip-path="url(#c6)"/>
+  <circle cx="500" cy="200" r="55" fill="#06B6D4" clip-path="url(#c6)"/>
+
+  <!-- Row 3 -->
+  <!-- Cell 7: Navy + coral half circle -->
+  <rect x="0" y="400" width="200" height="200" fill="#0F172A"/>
+  <circle cx="100" cy="400" r="90" fill="#EF4444" clip-path="url(#c7)"/>
+
+  <!-- Cell 8: Teal circle on navy -->
+  <rect x="200" y="400" width="200" height="200" fill="#0F172A"/>
+  <circle cx="300" cy="500" r="90" fill="#06B6D4" clip-path="url(#c8)"/>
+
+  <!-- Cell 9: Orange bg, triangle + purple -->
+  <rect x="400" y="400" width="200" height="200" fill="#F97316"/>
+  <polygon points="400,400 600,400 500,520" fill="#8B5CF6" clip-path="url(#c9)"/>
+  <circle cx="500" cy="560" r="50" fill="white" clip-path="url(#c9)"/>
+
+  <!-- Overlay accents -->
+  <!-- Diagonal teal stripe cell 7 -->
+  <polygon points="0,480 40,400 200,400 200,440 60,600 0,600" fill="#06B6D4" clip-path="url(#c7)" opacity="0.9"/>
+
+  <!-- Small orange triangle row 2 cell 6 -->
+  <polygon points="430,400 500,340 570,400" fill="#F97316" clip-path="url(#c6)"/>
+
+  <!-- White circle in cell 9 -->
+  <circle cx="560" cy="560" r="40" fill="#EF4444" clip-path="url(#c9)"/>
+  <circle cx="560" cy="560" r="24" fill="white" clip-path="url(#c9)"/>
+</svg>
